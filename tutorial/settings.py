@@ -51,6 +51,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+TIME_ZONE = 'Asia/Seoul'
+
 ROOT_URLCONF = 'tutorial.urls'
 
 TEMPLATES = [
